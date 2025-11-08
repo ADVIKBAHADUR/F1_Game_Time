@@ -109,7 +109,7 @@ class F1PredictionGame:
         
         try:
             driver.get("https://f1-dash.com/dashboard")
-            time.sleep(15)
+            time.sleep(1)
             
             html_content = driver.page_source
             soup = BeautifulSoup(html_content, 'html.parser')
